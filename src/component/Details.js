@@ -8,7 +8,7 @@ export default function Details() {
     return (
         <ProductConsumer>
             {(value) => {
-                const {company, thumbnailLink, info, title, description}= value.detailProducts;
+                const {thumbnailLink, title, description}= value.detailProducts;
                 return (
                     <DetailsWrapper className="container py-5">
                         <div className="row">
